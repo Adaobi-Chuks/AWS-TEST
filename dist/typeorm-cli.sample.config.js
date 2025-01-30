@@ -5,10 +5,10 @@ exports.default = new typeorm_1.DataSource({
     type: "postgres",
     host: "localhost",
     port: 5432,
-    username: "something",
-    password: "something",
+    username: "postgres",
+    password: "nzubechukwu**",
     database: "nestjs_blog_api",
-    entities: ["**/*.entity.ts"],
+    entities: ["**/*.entity.js"],
     migrations: ["migrations/*.js"]
 });
 //# sourceMappingURL=typeorm-cli.sample.config.js.map
