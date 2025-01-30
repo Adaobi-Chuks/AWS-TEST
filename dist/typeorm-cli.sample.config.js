@@ -5,8 +5,8 @@ exports.default = new typeorm_1.DataSource({
     type: "postgres",
     host: "localhost",
     port: 5432,
-    username: "postgres",
-    password: "nzubechukwu**",
+    username: "some",
+    password: "some",
     database: "nestjs_blog_api",
     entities: ["**/*.entity.js"],
     migrations: ["migrations/*.js"]
